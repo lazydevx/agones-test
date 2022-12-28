@@ -17,7 +17,7 @@ kind: GameServer
 metadata:
   # generate a unique name
   # will need to be created with `kubectl create`
-  generateName: colyseus-a-
+  generateName: colyseus-b-
 spec:
   ports:
     - name: default
