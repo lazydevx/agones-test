@@ -17,7 +17,7 @@ kind: GameServer
 metadata:
   # generate a unique name
   # will need to be created with `kubectl create`
-  generateName: colyseus-
+  generateName: colyseus-dc-
 spec:
   ports:
     - name: default
@@ -32,5 +32,5 @@ spec:
     spec:
       containers:
       - name: colyseus
-        image: gcr.io/friendly-sensor-272112/colyseus:0.4
+        image: docker.io/pratikxman/colyseus:0.1
         # args: ["--timeout=0"] # Change the timeout here, if you like the nodejs server to run longer.
