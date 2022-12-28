@@ -27,7 +27,7 @@ spec:
         spec:
           containers:
           - name: colyseus
-            image: gcr.io/friendly-sensor-272112/colyseus:0.4
+            image: docker.io/pratikxman/colyseus:0.1
             resources:
               requests:
                 memory: "64Mi"
