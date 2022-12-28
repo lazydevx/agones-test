@@ -18,6 +18,7 @@ metadata:
   name: colyseus
 spec:
   replicas: 4
+  scheduling: Distributed
   template:
     spec:
       ports:
